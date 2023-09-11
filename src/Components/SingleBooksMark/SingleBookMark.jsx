@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 const SingleBookMark = ({ singleBookMark }) => {
   const { title } = singleBookMark;
   return (
-    <div>
-      <h3 className="text-3xl">{title}</h3>
+    <div className="bg-slate-300 p-4 m-4 rounded-xl">
+      <h3 className="text-2xl">{title}</h3>
     </div>
   );
 };
